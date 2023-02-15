@@ -238,7 +238,7 @@ tooLongReturnDataCopy:
         value: !!int -1
 
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -254,7 +254,7 @@ tooLongReturnDataCopy:
         value: !!int -1
 
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:

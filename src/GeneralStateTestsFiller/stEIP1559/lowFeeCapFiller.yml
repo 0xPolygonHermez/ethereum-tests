@@ -52,7 +52,7 @@ lowFeeCap:
         value: !!int -1
 
       network:
-        - '>=London'
+        - 'Berlin'
       expectException:
-        '>=London': TR_FeeCapLessThanBlocks
+        'Berlin': TR_FeeCapLessThanBlocks
       result: {}

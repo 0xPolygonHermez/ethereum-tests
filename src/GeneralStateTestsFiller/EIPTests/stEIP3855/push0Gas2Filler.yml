@@ -57,11 +57,11 @@ push0Gas2:
     - indexes:
         data: ':label use_push0'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
         0000000000000000000000000000000000000100:
           balance: 0
-          storage: {} # Nothing is stored, PUSH0 (0x5f) is undefined/invalid in Merge
+          storage: {} # Nothing is stored, PUSH0 (0x5f) is undefined/invalid in Berlin
         b94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           storage:
             0x00: 0  # Subcall fails with unknown instruction
@@ -69,7 +69,7 @@ push0Gas2:
     - indexes:
         data: ':label use_push0'
       network:
-        - 'Merge+3855'
+        - 'Berlin+3855'
       result:
         0000000000000000000000000000000000000100:
           balance: 0
@@ -82,7 +82,7 @@ push0Gas2:
     - indexes:
         data: ':label use_push1_00'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
         0000000000000000000000000000000000000200:
           balance: 0
@@ -96,7 +96,7 @@ push0Gas2:
     - indexes:
         data: ':label use_push1_00'
       network:
-        - 'Merge+3855'
+        - 'Berlin+3855'
       result:
         0000000000000000000000000000000000000200:
           balance: 0

@@ -36,7 +36,7 @@ creationTxInitCodeSizeLimit:
     - indexes:
        data: ':label valid'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 195600160
@@ -50,10 +50,10 @@ creationTxInitCodeSizeLimit:
     - indexes:
        data: ':label valid'
       network:
-        - 'Merge+3860'
+        - 'Berlin+3860'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
-          # Difference with Merge is the charge for initcode 49152 // 32 * 2 = 3072 gas
+          # Difference with Berlin is the charge for initcode 49152 // 32 * 2 = 3072 gas
           balance: 195569440
           nonce: 1
        6295ee1b4f6dd65047762f924ecd367c17eabf8f:
@@ -65,7 +65,7 @@ creationTxInitCodeSizeLimit:
     - indexes:
        data: ':label invalid'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 195600120
@@ -79,9 +79,9 @@ creationTxInitCodeSizeLimit:
     - indexes:
        data: ':label invalid'
       network:
-        - 'Merge+3860'
+        - 'Berlin+3860'
       expectException:
-        'Merge+3860' : 'TR_InitCodeLimitExceeded'
+        'Berlin+3860' : 'TR_InitCodeLimitExceeded'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 0

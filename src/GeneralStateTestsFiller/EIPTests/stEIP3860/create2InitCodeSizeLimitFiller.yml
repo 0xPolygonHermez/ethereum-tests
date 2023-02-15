@@ -52,7 +52,7 @@ create2InitCodeSizeLimit:
     - indexes:
        data: ':label valid'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -70,7 +70,7 @@ create2InitCodeSizeLimit:
     - indexes:
        data: ':label invalid'
       network:
-        - 'Merge'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -88,7 +88,7 @@ create2InitCodeSizeLimit:
     - indexes:
        data: ':label valid'
       network:
-        - 'Merge+3860'
+        - 'Berlin+3860'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -96,7 +96,7 @@ create2InitCodeSizeLimit:
           storage:
               '0': '7b453b2ba212f731bec025f8f441f01547d79bfb'
               '1': 1
-               # Difference with Merge is the charge for initcode 49152 // 32 * 2 = 3072 gas
+               # Difference with Berlin is the charge for initcode 49152 // 32 * 2 = 3072 gas
               '10': 55539
        7b453b2ba212f731bec025f8f441f01547d79bfb:
           balance: 0
@@ -107,7 +107,7 @@ create2InitCodeSizeLimit:
     - indexes:
        data: ':label invalid'
       network:
-        - 'Merge+3860'
+        - 'Berlin+3860'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1

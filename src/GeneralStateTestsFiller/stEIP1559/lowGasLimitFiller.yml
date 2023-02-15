@@ -56,9 +56,9 @@ lowGasLimit:
         gas:  !!int 0
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       expectException:
-         '>=London': TR_GasLimitReached
+         'Berlin': TR_GasLimitReached
       result: {}
 
 
@@ -68,7 +68,7 @@ lowGasLimit:
         gas:  !!int 1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
            storage:
@@ -81,7 +81,7 @@ lowGasLimit:
         gas:  !!int 2
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
            storage:
@@ -94,8 +94,8 @@ lowGasLimit:
         gas:  !!int 3
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       expectException:
-        '>=London': TR_IntrinsicGas
+        'Berlin': TR_IntrinsicGas
       result: {}
 

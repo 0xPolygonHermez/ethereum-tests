@@ -14,9 +14,9 @@ CreateTransactionHighNonce:
     - indexes:
         data: !!int -1
       network:
-        - ">=London"
+        - "Berlin"
       expectException:
-        ">=London": "TR_NonceHasMaxValue"
+        "Berlin": "TR_NonceHasMaxValue"
       result: {}
   pre:
     a94f5374fce5edbc8e2a8697c15331677e6ebf0b:

@@ -114,7 +114,7 @@ eoaEmpty:
        gas: !!int 0      # gasLimit*gasPrice = EOA balance
        value: !!int 0
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -142,7 +142,7 @@ eoaEmpty:
        gas: !!int 0      # gasLimit*gasPrice = EOA balance
        value: !!int 0
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -170,10 +170,10 @@ eoaEmpty:
        gas: !!int 0      # gasLimit*gasPrice = EOA balance
        value: !!int 1    # But there is also a value, so this fails
       network:
-        - '>=London'
+        - 'Berlin'
       result: {}
       expectException: 
-        '>=London': TR_NoFunds
+        'Berlin': TR_NoFunds
 
 
 
@@ -182,7 +182,7 @@ eoaEmpty:
        gas: !!int 1      # gasLimit*gasPrice < EOA balance
        value: !!int 0
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -209,7 +209,7 @@ eoaEmpty:
        gas: !!int 1      # gasLimit*gasPrice < EOA balance
        value: !!int 0
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -236,7 +236,7 @@ eoaEmpty:
        gas: !!int 1      # gasLimit*gasPrice + value = EOA balance
        value: !!int 1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1
@@ -264,7 +264,7 @@ eoaEmpty:
        gas: !!int 1      # gasLimit*gasPrice + value = EOA balance
        value: !!int 1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
        a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           nonce: 1

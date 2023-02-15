@@ -54,9 +54,9 @@ outOfFundsOldTypes:
         value: !!int -1
 
       network:
-        - '>=London'
+        - 'Berlin'
       expectException:
-        '>=London': TR_NoFunds
+        'Berlin': TR_NoFunds
       result: {}
 
 
@@ -66,7 +66,7 @@ outOfFundsOldTypes:
         value: !!int 0
 
       network:
-        - '>=London'
+        - 'Berlin'
       result: {}
 
 
@@ -75,7 +75,7 @@ outOfFundsOldTypes:
         gas:  !!int 1
         value: !!int 1
       expectException:
-        '>=London': TR_NoFunds
+        'Berlin': TR_NoFunds
       network:
-        - '>=London'
+        - 'Berlin'
       result: {}

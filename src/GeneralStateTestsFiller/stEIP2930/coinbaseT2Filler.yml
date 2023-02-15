@@ -90,7 +90,7 @@ coinbaseT2:
       gas: !!int -1
       value: !!int -1
     network:
-    - ">=London"
+    - "Berlin"
     result:
       000000000000000000000000000000000000C0DE:
         storage:
@@ -102,7 +102,7 @@ coinbaseT2:
       gas: !!int -1
       value: !!int -1
     network:
-    - ">=London"
+    - "Berlin"
     result:
       000000000000000000000000000000000000C0DE:
         storage:

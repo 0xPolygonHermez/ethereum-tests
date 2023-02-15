@@ -232,7 +232,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -246,7 +246,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -260,7 +260,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -275,7 +275,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -288,7 +288,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -302,7 +302,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -316,7 +316,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:
@@ -329,7 +329,7 @@ measureGas:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
         cccccccccccccccccccccccccccccccccccccccc:
           storage:

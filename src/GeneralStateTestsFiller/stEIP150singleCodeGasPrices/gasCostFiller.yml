@@ -338,7 +338,7 @@ gasCost:
         gas:  !!int -1
         value: !!int -1
       network:
-        - 'Istanbul'
+        - 'Berlin'
       result:
         095e7baea6a6c7c4c2dfeb977efac326af552d87:
           storage:

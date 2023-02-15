@@ -127,7 +127,7 @@ refundResetFrontier:
         value: !!int -1
 
       network:
-        - Frontier
+        - Berlin
       result:
         a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 999999999999866128000
@@ -140,7 +140,7 @@ refundResetFrontier:
         value: !!int -1
 
       network:
-        - Frontier
+        - Berlin
       result:
         a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 999999999999866138000
@@ -154,7 +154,7 @@ refundResetFrontier:
         value: !!int -1
 
       network:
-        - Frontier
+        - Berlin
       result:
         a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 999999999999933064000
@@ -167,7 +167,7 @@ refundResetFrontier:
         value: !!int -1
 
       network:
-        - Frontier
+        - Berlin
       result:
         a94f5374fce5edbc8e2a8697c15331677e6ebf0b:
           balance: 999999999999933069000

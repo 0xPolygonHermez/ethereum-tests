@@ -176,7 +176,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
@@ -202,7 +202,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
@@ -240,7 +240,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
@@ -307,7 +307,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
@@ -333,7 +333,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
@@ -371,7 +371,7 @@ CreateOOGafterMaxCodesize:
         gas:  !!int -1
         value: !!int -1
       network:
-        - '>=London'
+        - 'Berlin'
       result:
 
         00000000000000000000000000000000000c0dea:
