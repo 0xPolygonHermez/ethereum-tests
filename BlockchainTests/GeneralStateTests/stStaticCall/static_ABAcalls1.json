@@ -694,7 +694,7 @@
                     "coinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                     "difficulty" : "0x020000",
                     "extraData" : "0x00",
-                    "gasLimit" : "0x7fffffff",
+                    "gasLimit" : "0x02540be400",
                     "gasUsed" : "0x02321d",
                     "hash" : "0x548fe63b3e9dc0fe321701b104a650839b4a2040955f408aa2a06c445a81a2bd",
                     "mixHash" : "0x0000000000000000000000000000000000000000000000000000000000000000",
