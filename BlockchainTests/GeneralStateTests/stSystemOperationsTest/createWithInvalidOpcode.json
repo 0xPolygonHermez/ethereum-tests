@@ -72,7 +72,7 @@
         "network" : "Berlin",
         "postState" : {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
-                "balance" : "0x0de0b6b3a76586a0",
+                "balance" : "0xffffffffffffffff",
                 "code" : "0x444242424245434253f0",
                 "nonce" : "0x01",
                 "storage" : {
@@ -95,7 +95,7 @@
         },
         "pre" : {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
-                "balance" : "0x0de0b6b3a7640000",
+                "balance" : "0xfffffffffffe795f",
                 "code" : "0x444242424245434253f0",
                 "nonce" : "0x00",
                 "storage" : {
